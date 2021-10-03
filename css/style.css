@@ -5,7 +5,15 @@
 
 
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
-
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap");
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr-Thin.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
 *,
 *::before,
 *::after {
@@ -52,3 +60,184 @@ body {
 	padding: 20px;
 }
 /* ------------------------------ */
+main {
+	width: 70%;
+	margin: 0 auto;
+	font-family: "Poppins", sans-serif;
+}
+.first {
+	max-width: 374px;
+	margin: 20px auto;
+}
+.first h2 {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 62px;
+	margin-bottom: 20px;
+	color: #323232;
+}
+.first p {
+	margin-bottom: 20px;
+	color: #323232;
+}
+.first p + * {
+	margin-bottom: 40px;
+}
+.first_button {
+	display: block;
+	width: 172px;
+	height: 58px;
+	background-color: #f78434;
+	font-weight: 700;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 24px;
+	border-radius: 29px;
+}
+.second {
+	max-width: 540px;
+	margin: 0 auto;
+}
+.second_block {
+	max-width: 364px;
+	margin: 0 auto;
+}
+.icon {
+	display: block;
+	margin: 0 auto 15px auto;
+}
+.second h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 42px;
+	color: #323232;
+	line-height: 62px;
+}
+.second p {
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	text-align: center;
+	color: #323232;
+	margin: 0px 0px 43px 0px;
+}
+.second_link {
+	display: block;
+	text-align: center;
+	color: #f78434;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 55px;
+}
+.third {
+	max-width: 350px;
+	margin: 20px auto;
+}
+.third p {
+	margin: 31px 29px 23px 29px;
+	color: #323232;
+	line-height: 27px;
+}
+.name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 27px;
+	color: #323232;
+	letter-spacing: 0.6px;
+	margin-left: 29px;
+}
+.city {
+	color: #58bebf;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	margin-left: 29px;
+	margin-bottom: 31px;
+}
+.four {
+	font-family: "HelveticaNeueCyr";
+	margin: 0 auto;
+	max-width: 255px;
+	background-color: #252525;
+	border-radius: 6px;
+	margin-bottom: 40px;
+}
+.four_item {
+	padding: 24px;
+}
+.four h2 {
+	font-family: Helvetica Neue;
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 26px;
+	margin-bottom: 10px;
+	letter-spacing: -0.275px;
+	text-transform: capitalize;
+	padding: 0px 0px 10px 0px;
+}
+.line {
+	width: 56px;
+	height: 2px;
+	background-color: #34c759;
+	margin-bottom: 24px;
+}
+.four p {
+	max-width: 207px;
+	font-size: 13px;
+	line-height: 18px;
+	color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 60px;
+	letter-spacing: -0.1625px;
+}
+.five {
+	font-family: "HelveticaNeueCyr";
+	max-width: 350px;
+	margin: 0 auto;
+	background-color: #252525;
+	border-radius: 6px;
+}
+.five_item {
+	max-width: 300px;
+	margin: 30px auto;
+	padding-bottom: 24px;
+}
+.five_item h2 {
+	font-size: 32px;
+	line-height: 30px;
+	color: #d9d9d9;
+}
+.five_item p {
+	font-size: 12px;
+	line-height: 16px;
+	color: #a4a8b2;
+	margin-bottom: 20px;
+}
+.four_text {
+	font-size: 13px;
+	line-height: 18px;
+	color: #85878c;
+	margin-bottom: 30px;
+}
+.end {
+	max-height: 40px;
+	max-width: 300px;
+}
+.stars {
+	display: inline-block;
+	max-width: 155px;
+	max-height: 30px;
+	margin-right: 41px;
+	vertical-align: middle;
+}
+.order {
+	max-width: 100px;
+	max-height: 40px;
+	font-weight: 900;
+	font-size: 10px;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: 0.2em;
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 10px 25px;
+	border-radius: 30px;
+}
